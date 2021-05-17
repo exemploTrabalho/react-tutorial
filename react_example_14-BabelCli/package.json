@@ -1,0 +1,11 @@
+{
+  "name": "react_example_14-babelcli",
+  "version": "1.0.0",
+  "description": "React Example 14 - Babel CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Amaro Oliveira",
+  "license": "AGPL-3.0-only"
+}

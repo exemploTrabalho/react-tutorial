@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Example 14 - JSX Like Button Component Reuse</title>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  </head>
+  <body>
+    <h1>React Example 14 - JSX Like Button Component Reuse</h1>
+    <p>
+      This page demonstrates reusing React Components with no build tooling.
+    </p>
+    <p>React is loaded as a script tag.</p>
+
+    <section>
+      <p>This is the first comment.</p>
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="1"></div>
+    </section>
+    <section>
+      <p>This is the second comment.</p>
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="2"></div>
+    </section>
+    <section>
+      <p>This is the third comment.</p>
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="3"></div>
+    </section>
+    <!-- Load our React component. -->
+    <script src="../lib/like_button.js"></script>
+    <script src="../lib/script.js"></script>
+  </body>
+</html>

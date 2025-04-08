@@ -1,4 +1,5 @@
 'use strict';
 const e = React.createElement;
 
-reactDOM.createRoot(e(Recipe), document.getElementById('react-container'));
+const root = ReactDOM.createRoot(document.getElementById('react-container'));
+root.render(e(Recipe));
